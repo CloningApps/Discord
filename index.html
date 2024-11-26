@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Discord Server!</title>
+    <style>
+        :root {
+            --primary-color: #7289da;
+            --secondary-color: #ffffff;
+            --background-color: #2c2f33;
+            --text-color: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #5a6fb4;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.2);
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Discord Server!</h1>
+    </header>
+    <main>
+        <p>Join our vibrant community of like-minded individuals. Whether you're here to chat, collaborate, or just hang out, we've got a place for you!</p>
+        <a href="https://discord.gg/your-invite-link" class="cta-button">Join Now</a>
+
+        <div class="features">
+            <div class="feature">
+                <h2>Active Community</h2>
+                <p>Engage with friendly members who share your interests.</p>
+            </div>
+            <div class="feature">
+                <h2>Events & Activities</h2>
+                <p>Participate in regular events, game nights, and more!</p>
+            </div>
+            <div class="feature">
+                <h2>Helpful Moderators</h2>
+                <p>Our team ensures a safe and welcoming environment for all.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Discord Server Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
